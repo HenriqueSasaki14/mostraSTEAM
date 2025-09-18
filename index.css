@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    height: 1200px;
+    margin: 0;
+    background-image: url(images_background/background_image2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Painel_Titulo {
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 10px;
+    scale: 58%;
+    margin-top: -200px;
+}
+
+.Titulo {
+    font-size: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Titulo2 {
+    font-size: 350px;
+    font-family: "Fleur De Leah", cursive;
+    margin: -50px;
+}
+
+.Painel_Participantes {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 10px auto;
+    padding: 15px 25px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9a8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    scale: 63%;
+}
+
+.botão {
+    padding: 15px 25px;
+    text-align: center;
+    position: absolute;
+    left: 47.5%;
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    color: #333;
+    margin: 20px auto;
+    padding: 15px 25px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9a8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    scale: 150%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botão a:hover {
+    scale: 300%;
+
+}
