@@ -8,24 +8,46 @@ body {
     background-repeat: repeat-y;
 }
 
-.header {
+.footer {
     display: flex;
     justify-content: space-between;
+    
 }
 
-.header button {
+.footer button {
     margin: 100px;
     width: 250px;
     height: 80px;
+    border: none;
+    background-color: transparent;
     border-radius: 30px;
     font-size: 30px;
-    font-family: "Fleur De Leah", cursive;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    
 }
+
+svg{
+    cursor: pointer;
+}
+
+.footer button:hover{
+    transform: scale(110%);
+    transition: 1s;
+}
+
+.footer svg:hover{
+    transform: scale(110%);
+    transition: 1s;
+}
+
+
 
 .header button:hover {
     scale: 110%;
     transition: 1s;
 }
+
 
 
 .Botão{
@@ -50,8 +72,8 @@ body {
 .Titulo_obra{
 
     text-align: center;
-    font-family: "Fleur De Leah", cursive;
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
     color: #333;
     margin: 20px auto;
     margin-top: 35px;
